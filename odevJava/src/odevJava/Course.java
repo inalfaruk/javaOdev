@@ -8,12 +8,12 @@ public class Course {
 				
 	}
 	
-	public Course(int id,String name,int categoryId,int educatorId)
+	public Course(int id,String name,int categoryId,int InstructorId)
 	{
 		this.id=id;
 		this.name=name;
 		this.categoryId=categoryId;
-		this.educatorId=educatorId;
+		this.InstructorId=InstructorId;
 		
 	}
 	
@@ -21,12 +21,9 @@ public class Course {
 	int id;
 	String name;
 	int categoryId;
-	int educatorId;
+	int InstructorId;
 	
 	}
 
 
 
-/*site üzerindeki özellik nesnelerine örnek
-Kurs nesnesi (id, courseName)
-Eðitmen nesnesi (id,educatorName,...)*/
